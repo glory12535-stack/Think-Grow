@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Think and Grow</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=Playfair+Display:ital,wght@0,500;1,500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+  <!-- The header gives visitors a clear way to move around the website. -->
+  <header class="site-header navbar navbar-expand-lg" data-bs-theme="light">
+    <div class="container">
+    <a class="brand navbar-brand" href="#top" aria-label="Think and Grow home">
+      <span class="brand-icon">T&amp;G</span>
+      <span>Think and Grow <b>UK</b></span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <nav class="main-nav navbar-collapse collapse" id="mainNav" aria-label="Main navigation">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link current" aria-current="page" href="#top">Home</a>
+        <a class="nav-link" href="Pages/Learn.html">Learn</a>
+        <a class="nav-link" href="Pages/explore.html">Explore</a>
+        <a class="nav-link" href="Pages/take_action.html">Take Action</a>
+        <a class="nav-link" href="Pages/quiz.html">Quiz Hub</a>
+      </div>
+    </nav>
+    </div>
+  </header>
+
+  <!-- First page section: this is the main area visitors see first. -->
+  <main id="top">
+    <section class="hero-shell" aria-labelledby="hero-title">
+      <div class="hero container row align-items-center">
+        <div class="hero-copy col-lg-6">
+        <p class="hero-kicker"><span>Climate learning</span><span>United Kingdom</span></p>
+        <h1 id="hero-title">The climate<br>is changing.<br><em>What happens next<br>is up to us.</em></h1>
+        <p class="hero-introduction">Understand the science. See the impact.<br>Take action.</p>
+        <div class="hero-buttons">
+          <a class="button button-dark" href="Pages/Learn.html">Start learning <span>→</span></a>
+          <a class="button button-light" href="Pages/quiz.html">Take a quick quiz <span>▥</span></a>
+        </div>
+      </div>
+
+      <div class="planet-area col-lg-6" aria-label="An illustration of Earth and global warming">
+        <div class="planet-stage">
+          <img src="Assets/planet.png" alt="The Earth seen from space" class="planet-image">
+          <div class="temperature-card"><span>Global temperature rise</span><strong>↑ +1.2°C</strong><small>since 1880</small>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- These three facts form the bottom strip shown in the reference image. -->
+    <section class="fact-strip row g-0" aria-label="Climate facts">
+      <article class="fact col-md-4"><span class="fact-icon">♧</span>
+        <p><strong>77%</strong><br><small>of UK teenagers<br>want stronger climate action</small></p><span
+          class="fact-arrow">→</span>
+      </article>
+      <article class="fact col-md-4"><span class="fact-icon">♧</span>
+        <p><strong>1 in 3</strong><br><small>species are at risk<br>from climate change</small></p><span
+          class="fact-arrow">→</span>
+      </article>
+      <article class="fact col-md-4"><span class="fact-icon">◎</span>
+        <p><strong>Every action</strong><br><small>makes a difference<br>to our shared future</small></p><span
+          class="fact-arrow">→</span>
+      </article>
+    </section>
+    <section class="map-section container py-5">
+      <h2>Climate Action Locations</h2>
+      <div class="ratio ratio-16x9 mt-4">
+        <iframe title="Climate action locations map" src="https://www.google.com/maps/d/embed?mid=1jp8JQKVLphI-rudFCuaHUdrnlu5DNk4&amp;usp=sharing" loading="lazy" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="JS/script.js"></script>
+ 
+</body>
+
+</html>
